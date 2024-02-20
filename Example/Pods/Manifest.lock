@@ -1,0 +1,16 @@
+PODS:
+  - AdmobSwiftLibrary (0.1.0)
+
+DEPENDENCIES:
+  - AdmobSwiftLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  AdmobSwiftLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AdmobSwiftLibrary: 39d3acc8fc5cd1a09e5297261868816d4c2d9564
+
+PODFILE CHECKSUM: 2580244f492ebebb1631d8681cbac9b61f6305fa
+
+COCOAPODS: 1.14.3

@@ -1,0 +1,22 @@
+{
+  "name": "AdmobSwiftLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of AdmobSwiftLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/phonghoang/AdmobSwiftLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "phonghoang": "phonghoang1023@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/phonghoang/AdmobSwiftLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AdmobSwiftLibrary/Classes/**/*"
+}

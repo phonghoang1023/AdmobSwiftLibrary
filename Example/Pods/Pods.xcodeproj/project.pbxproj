@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C989B7C48FA59B48C1741B5EA29641 /* Pods-AdmobSwiftLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 751C46F67A90CDF197717C377E792B38 /* Pods-AdmobSwiftLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0793D33FF526ED779354A5A126675409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		39EE7C0764A73201037D09D54E1CE899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5E50FC0D05D02C64C5312F6176A51188 /* Pods-AdmobSwiftLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6EBCC1F314CA029959D9670755E47E /* Pods-AdmobSwiftLibrary_Tests-dummy.m */; };
+		66AA01D682E764AAFC1CF1FB98F83C83 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A74313C8E3B7C72DF2D842CE52107EB /* ReplaceMe.swift */; };
+		C23042BAF221B31B67E68D0929591185 /* AdmobSwiftLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A63C47B3C6FF2E18F0C267528BEF3B /* AdmobSwiftLibrary-dummy.m */; };
+		C57F67338F226D9C67217F5E3C785787 /* AdmobSwiftLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0536F7CEFFA60C932C4ED82B0CAE2DA5 /* AdmobSwiftLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DA6B8A0A1E38A252B77799933F4423 /* Pods-AdmobSwiftLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB35F02F88A1635D0D444784EB915 /* Pods-AdmobSwiftLibrary_Example-dummy.m */; };
+		CB5240C49DA85164989FE822A5FC7C1C /* Pods-AdmobSwiftLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB0B131A486BB9FD2174F1AF514C3E8 /* Pods-AdmobSwiftLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B812AD17F466E345A3EC835F407A0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AEA132C462E1D73D40222C7682F582B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1EE635928D9941AA217312033FBEAD;
+			remoteInfo = "Pods-AdmobSwiftLibrary_Example";
+		};
+		B2E62C42A64ABC6936590690CE607B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0279B2613C1557935725FF9CC390C19D;
+			remoteInfo = AdmobSwiftLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007F0E788633C85A4B51FD058BDAEAC7 /* AdmobSwiftLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdmobSwiftLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		0388F5DE126D429BCBEC8DCA6AEFCE48 /* Pods-AdmobSwiftLibrary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AdmobSwiftLibrary_Example"; path = Pods_AdmobSwiftLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0536F7CEFFA60C932C4ED82B0CAE2DA5 /* AdmobSwiftLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdmobSwiftLibrary-umbrella.h"; sourceTree = "<group>"; };
+		147D654A8BCB29B25252326F76327EDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1A70E2C24BB0C62F36DE96EA04D4E4CA /* Pods-AdmobSwiftLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdmobSwiftLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		21338B6F916841B520C577916762372F /* Pods-AdmobSwiftLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdmobSwiftLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31C255DEC8D81098E9AD14B273048EE7 /* AdmobSwiftLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AdmobSwiftLibrary; path = AdmobSwiftLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3899820FBE229293FDE1D92B1A1045CF /* AdmobSwiftLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdmobSwiftLibrary.release.xcconfig; sourceTree = "<group>"; };
+		38A9E9714A5FD336E7FD8ECD9A548F7B /* Pods-AdmobSwiftLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdmobSwiftLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		39517CBC955BFF2F27135C0939451750 /* AdmobSwiftLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AdmobSwiftLibrary.modulemap; sourceTree = "<group>"; };
+		44A63C47B3C6FF2E18F0C267528BEF3B /* AdmobSwiftLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdmobSwiftLibrary-dummy.m"; sourceTree = "<group>"; };
+		4A5CB35F02F88A1635D0D444784EB915 /* Pods-AdmobSwiftLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdmobSwiftLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		4C99C1AF83622758D33FAB0892B1CC3E /* Pods-AdmobSwiftLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdmobSwiftLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		5257421381363A844E16D1086CE99169 /* Pods-AdmobSwiftLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdmobSwiftLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		60AFE685D5E27CEC813DF6B59CB1A52D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6F52B844DBA0FF6AEE48C4168F3F0B6F /* Pods-AdmobSwiftLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdmobSwiftLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		709D84124B2A5261AE8D350C8EFF1B22 /* Pods-AdmobSwiftLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AdmobSwiftLibrary_Tests"; path = Pods_AdmobSwiftLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		751C46F67A90CDF197717C377E792B38 /* Pods-AdmobSwiftLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdmobSwiftLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		7A08A2D452A5351EE035A8D100700B45 /* AdmobSwiftLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AdmobSwiftLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		7A74313C8E3B7C72DF2D842CE52107EB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AdmobSwiftLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		86B01A0D1D729007DA8C0F162409A7FE /* Pods-AdmobSwiftLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdmobSwiftLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
+		8CDB7C5E18EDF90DEE04462FA407380D /* Pods-AdmobSwiftLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdmobSwiftLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD6EBCC1F314CA029959D9670755E47E /* Pods-AdmobSwiftLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdmobSwiftLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		CEB0B131A486BB9FD2174F1AF514C3E8 /* Pods-AdmobSwiftLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdmobSwiftLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D26026EEF8A303FFFF2CCD35C97B81D0 /* Pods-AdmobSwiftLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdmobSwiftLibrary_Example-Info.plist"; sourceTree = "<group>"; };
+		D6A524D6DC5401EF61110CB4F6985E3D /* AdmobSwiftLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AdmobSwiftLibrary-Info.plist"; sourceTree = "<group>"; };
+		D93FFFCED5E8F4225901860FF69A4C9D /* Pods-AdmobSwiftLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdmobSwiftLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DF7E1675E07F0B761E21D05B8EE0ECEE /* AdmobSwiftLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdmobSwiftLibrary-prefix.pch"; sourceTree = "<group>"; };
+		E731F31EEA170A5399C393B21C6C3F08 /* Pods-AdmobSwiftLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdmobSwiftLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1AE402EF5DE713398E78B06060C4923 /* Pods-AdmobSwiftLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdmobSwiftLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE00ADB6C96694EF70665B41484B4ED7 /* Pods-AdmobSwiftLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdmobSwiftLibrary_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7597573C73BBDEC9E67E2B946858DD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE7C0764A73201037D09D54E1CE899 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4484B26AA937166286DBB9E031FD603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0793D33FF526ED779354A5A126675409 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F3C24F8B4051ED45C2484A315593B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B812AD17F466E345A3EC835F407A0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0069D0F5CC9B9051870D22000ADEFA89 /* AdmobSwiftLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				7A74313C8E3B7C72DF2D842CE52107EB /* ReplaceMe.swift */,
+				5ACE54EB38C5CA36750EA53A83354EB2 /* Pod */,
+				F5930DC008AF390FBB9ED9835A21D36C /* Support Files */,
+			);
+			name = AdmobSwiftLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3A4881FF2B6FBBF9785533E47E65BC89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				810F44B5623959C66C10A82B35F71277 /* Pods-AdmobSwiftLibrary_Example */,
+				9BF3ADA9A6D8C74C7BB680F7560FDEA9 /* Pods-AdmobSwiftLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44C170873D7EF7263C2B46483D5FFCAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C255DEC8D81098E9AD14B273048EE7 /* AdmobSwiftLibrary */,
+				0388F5DE126D429BCBEC8DCA6AEFCE48 /* Pods-AdmobSwiftLibrary_Example */,
+				709D84124B2A5261AE8D350C8EFF1B22 /* Pods-AdmobSwiftLibrary_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5ACE54EB38C5CA36750EA53A83354EB2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A08A2D452A5351EE035A8D100700B45 /* AdmobSwiftLibrary.podspec */,
+				147D654A8BCB29B25252326F76327EDF /* LICENSE */,
+				60AFE685D5E27CEC813DF6B59CB1A52D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6AE5C5AE6E8BEA71981216896A6AE898 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0069D0F5CC9B9051870D22000ADEFA89 /* AdmobSwiftLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		810F44B5623959C66C10A82B35F71277 /* Pods-AdmobSwiftLibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FE00ADB6C96694EF70665B41484B4ED7 /* Pods-AdmobSwiftLibrary_Example.modulemap */,
+				E731F31EEA170A5399C393B21C6C3F08 /* Pods-AdmobSwiftLibrary_Example-acknowledgements.markdown */,
+				38A9E9714A5FD336E7FD8ECD9A548F7B /* Pods-AdmobSwiftLibrary_Example-acknowledgements.plist */,
+				4A5CB35F02F88A1635D0D444784EB915 /* Pods-AdmobSwiftLibrary_Example-dummy.m */,
+				D93FFFCED5E8F4225901860FF69A4C9D /* Pods-AdmobSwiftLibrary_Example-frameworks.sh */,
+				D26026EEF8A303FFFF2CCD35C97B81D0 /* Pods-AdmobSwiftLibrary_Example-Info.plist */,
+				751C46F67A90CDF197717C377E792B38 /* Pods-AdmobSwiftLibrary_Example-umbrella.h */,
+				1A70E2C24BB0C62F36DE96EA04D4E4CA /* Pods-AdmobSwiftLibrary_Example.debug.xcconfig */,
+				8CDB7C5E18EDF90DEE04462FA407380D /* Pods-AdmobSwiftLibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-AdmobSwiftLibrary_Example";
+			path = "Target Support Files/Pods-AdmobSwiftLibrary_Example";
+			sourceTree = "<group>";
+		};
+		9BF3ADA9A6D8C74C7BB680F7560FDEA9 /* Pods-AdmobSwiftLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C99C1AF83622758D33FAB0892B1CC3E /* Pods-AdmobSwiftLibrary_Tests.modulemap */,
+				21338B6F916841B520C577916762372F /* Pods-AdmobSwiftLibrary_Tests-acknowledgements.markdown */,
+				6F52B844DBA0FF6AEE48C4168F3F0B6F /* Pods-AdmobSwiftLibrary_Tests-acknowledgements.plist */,
+				CD6EBCC1F314CA029959D9670755E47E /* Pods-AdmobSwiftLibrary_Tests-dummy.m */,
+				86B01A0D1D729007DA8C0F162409A7FE /* Pods-AdmobSwiftLibrary_Tests-Info.plist */,
+				CEB0B131A486BB9FD2174F1AF514C3E8 /* Pods-AdmobSwiftLibrary_Tests-umbrella.h */,
+				F1AE402EF5DE713398E78B06060C4923 /* Pods-AdmobSwiftLibrary_Tests.debug.xcconfig */,
+				5257421381363A844E16D1086CE99169 /* Pods-AdmobSwiftLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-AdmobSwiftLibrary_Tests";
+			path = "Target Support Files/Pods-AdmobSwiftLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6AE5C5AE6E8BEA71981216896A6AE898 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				44C170873D7EF7263C2B46483D5FFCAB /* Products */,
+				3A4881FF2B6FBBF9785533E47E65BC89 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5930DC008AF390FBB9ED9835A21D36C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39517CBC955BFF2F27135C0939451750 /* AdmobSwiftLibrary.modulemap */,
+				44A63C47B3C6FF2E18F0C267528BEF3B /* AdmobSwiftLibrary-dummy.m */,
+				D6A524D6DC5401EF61110CB4F6985E3D /* AdmobSwiftLibrary-Info.plist */,
+				DF7E1675E07F0B761E21D05B8EE0ECEE /* AdmobSwiftLibrary-prefix.pch */,
+				0536F7CEFFA60C932C4ED82B0CAE2DA5 /* AdmobSwiftLibrary-umbrella.h */,
+				007F0E788633C85A4B51FD058BDAEAC7 /* AdmobSwiftLibrary.debug.xcconfig */,
+				3899820FBE229293FDE1D92B1A1045CF /* AdmobSwiftLibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AdmobSwiftLibrary";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14FB17B490D6CB77A92A7B2504B3C983 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5240C49DA85164989FE822A5FC7C1C /* Pods-AdmobSwiftLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934919B5DCF4F1845601D9565AD12066 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57F67338F226D9C67217F5E3C785787 /* AdmobSwiftLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9067F18FA99A7137514BD0976D7C45D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C989B7C48FA59B48C1741B5EA29641 /* Pods-AdmobSwiftLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0279B2613C1557935725FF9CC390C19D /* AdmobSwiftLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201C7B7C94C96DCCF34129D253528CDE /* Build configuration list for PBXNativeTarget "AdmobSwiftLibrary" */;
+			buildPhases = (
+				934919B5DCF4F1845601D9565AD12066 /* Headers */,
+				E882DAEFB22ADA1DED7A24B085ACC38C /* Sources */,
+				A4484B26AA937166286DBB9E031FD603 /* Frameworks */,
+				02A29E6B888AEE000F4A815318D2AF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdmobSwiftLibrary;
+			productName = AdmobSwiftLibrary;
+			productReference = 31C255DEC8D81098E9AD14B273048EE7 /* AdmobSwiftLibrary */;
+			productType = "com.apple.product-type.framework";
+		};
+		0A1EE635928D9941AA217312033FBEAD /* Pods-AdmobSwiftLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A48E83771033050C3F02497DD57CFB /* Build configuration list for PBXNativeTarget "Pods-AdmobSwiftLibrary_Example" */;
+			buildPhases = (
+				E9067F18FA99A7137514BD0976D7C45D /* Headers */,
+				AE2F3C161F809233A56355BE0005FF30 /* Sources */,
+				7597573C73BBDEC9E67E2B946858DD16 /* Frameworks */,
+				544A6E6EA2B947808E02DB850AC5FF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED9A88093759DF2EA615AA45A35DA2C /* PBXTargetDependency */,
+			);
+			name = "Pods-AdmobSwiftLibrary_Example";
+			productName = Pods_AdmobSwiftLibrary_Example;
+			productReference = 0388F5DE126D429BCBEC8DCA6AEFCE48 /* Pods-AdmobSwiftLibrary_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B97FD1197AE07A6876E19F08F40CF26E /* Pods-AdmobSwiftLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71233208CF1993DD5214ABC0312D8A7D /* Build configuration list for PBXNativeTarget "Pods-AdmobSwiftLibrary_Tests" */;
+			buildPhases = (
+				14FB17B490D6CB77A92A7B2504B3C983 /* Headers */,
+				CC4568EABADEF9994E0C070A65E5FD1E /* Sources */,
+				C9F3C24F8B4051ED45C2484A315593B0 /* Frameworks */,
+				95A765B2BEB5728CB10133E48BDFACEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC736F21B245C2F95BEB24CEE7ABEF5C /* PBXTargetDependency */,
+			);
+			name = "Pods-AdmobSwiftLibrary_Tests";
+			productName = Pods_AdmobSwiftLibrary_Tests;
+			productReference = 709D84124B2A5261AE8D350C8EFF1B22 /* Pods-AdmobSwiftLibrary_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 44C170873D7EF7263C2B46483D5FFCAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0279B2613C1557935725FF9CC390C19D /* AdmobSwiftLibrary */,
+				0A1EE635928D9941AA217312033FBEAD /* Pods-AdmobSwiftLibrary_Example */,
+				B97FD1197AE07A6876E19F08F40CF26E /* Pods-AdmobSwiftLibrary_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02A29E6B888AEE000F4A815318D2AF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544A6E6EA2B947808E02DB850AC5FF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A765B2BEB5728CB10133E48BDFACEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE2F3C161F809233A56355BE0005FF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DA6B8A0A1E38A252B77799933F4423 /* Pods-AdmobSwiftLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4568EABADEF9994E0C070A65E5FD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E50FC0D05D02C64C5312F6176A51188 /* Pods-AdmobSwiftLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E882DAEFB22ADA1DED7A24B085ACC38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23042BAF221B31B67E68D0929591185 /* AdmobSwiftLibrary-dummy.m in Sources */,
+				66AA01D682E764AAFC1CF1FB98F83C83 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ED9A88093759DF2EA615AA45A35DA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdmobSwiftLibrary;
+			target = 0279B2613C1557935725FF9CC390C19D /* AdmobSwiftLibrary */;
+			targetProxy = B2E62C42A64ABC6936590690CE607B84 /* PBXContainerItemProxy */;
+		};
+		EC736F21B245C2F95BEB24CEE7ABEF5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AdmobSwiftLibrary_Example";
+			target = 0A1EE635928D9941AA217312033FBEAD /* Pods-AdmobSwiftLibrary_Example */;
+			targetProxy = 0AEA132C462E1D73D40222C7682F582B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17AE93ECAE4AFDB88CF852D71D48C242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDB7C5E18EDF90DEE04462FA407380D /* Pods-AdmobSwiftLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdmobSwiftLibrary_Example/Pods-AdmobSwiftLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdmobSwiftLibrary_Example/Pods-AdmobSwiftLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6427807A17186566F2E48CC82351E047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3899820FBE229293FDE1D92B1A1045CF /* AdmobSwiftLibrary.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AdmobSwiftLibrary/AdmobSwiftLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdmobSwiftLibrary/AdmobSwiftLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdmobSwiftLibrary/AdmobSwiftLibrary.modulemap";
+				PRODUCT_MODULE_NAME = AdmobSwiftLibrary;
+				PRODUCT_NAME = AdmobSwiftLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD111EAEF7432EE35020F4F69BD184F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A70E2C24BB0C62F36DE96EA04D4E4CA /* Pods-AdmobSwiftLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdmobSwiftLibrary_Example/Pods-AdmobSwiftLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdmobSwiftLibrary_Example/Pods-AdmobSwiftLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D53B0E6ECDA588C05D38B7DA85EC9950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5257421381363A844E16D1086CE99169 /* Pods-AdmobSwiftLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdmobSwiftLibrary_Tests/Pods-AdmobSwiftLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdmobSwiftLibrary_Tests/Pods-AdmobSwiftLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB419F9B3A55D09F5E8664105BF409AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007F0E788633C85A4B51FD058BDAEAC7 /* AdmobSwiftLibrary.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AdmobSwiftLibrary/AdmobSwiftLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdmobSwiftLibrary/AdmobSwiftLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdmobSwiftLibrary/AdmobSwiftLibrary.modulemap";
+				PRODUCT_MODULE_NAME = AdmobSwiftLibrary;
+				PRODUCT_NAME = AdmobSwiftLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC50EAE79FF1298E4FE64FEE301CA88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AE402EF5DE713398E78B06060C4923 /* Pods-AdmobSwiftLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdmobSwiftLibrary_Tests/Pods-AdmobSwiftLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdmobSwiftLibrary_Tests/Pods-AdmobSwiftLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		201C7B7C94C96DCCF34129D253528CDE /* Build configuration list for PBXNativeTarget "AdmobSwiftLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB419F9B3A55D09F5E8664105BF409AA /* Debug */,
+				6427807A17186566F2E48CC82351E047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71233208CF1993DD5214ABC0312D8A7D /* Build configuration list for PBXNativeTarget "Pods-AdmobSwiftLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC50EAE79FF1298E4FE64FEE301CA88B /* Debug */,
+				D53B0E6ECDA588C05D38B7DA85EC9950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A48E83771033050C3F02497DD57CFB /* Build configuration list for PBXNativeTarget "Pods-AdmobSwiftLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD111EAEF7432EE35020F4F69BD184F8 /* Debug */,
+				17AE93ECAE4AFDB88CF852D71D48C242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdmobSwiftLibrary'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'A short description of AdmobSwiftLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/phonghoang/AdmobSwiftLibrary'
+  s.homepage         = 'https://github.com/phonghoang1023/AdmobSwiftLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'phonghoang' => 'phonghoang1023@gmail.com' }

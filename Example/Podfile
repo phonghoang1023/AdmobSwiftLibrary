@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AdmobSwiftLibrary_Example' do
+  pod 'AdmobSwiftLibrary', :path => '../'
+
+  target 'AdmobSwiftLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
